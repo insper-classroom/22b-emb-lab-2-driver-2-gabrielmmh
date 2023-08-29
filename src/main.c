@@ -136,6 +136,7 @@ const uint32_t ul_mask) {
     case PIO_OUTPUT_0:
       return (p_pio->PIO_ODSR & ul_mask) ? 1 : 0;
   }	
+  return 0;
 }
 
 // Conceito A
